@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>CIEF</title>
+        <link rel="shortcut icon" type="image/x-icon" href="imagens/Cief_final2.png" />
+        
+        
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    </head>
+    <body>
+        <script>
+            $(document).ready(function() {
+                var hamburger = $('#hamburger-icon');
+                var menu_mobile = $(".menuOpcoes");
+                hamburger.click(function() {
+                    hamburger.toggleClass('active');
+                    menu_mobile.toggleClass('active');
+                    return false;
+                });
+                
+            })
+        </script>
+        <header>
+            <nav>
+                <div class="menu_desktop">
+                    <a id="opcaoTop" href="index.php"><i class="material-icons">keyboard_arrow_left</i></a>
+                    <a class="opcao" href="index.php#about">About</a>
+                    <a class="opcao" href="index.php#partners">Partners</a>
+                    <a class="opcao" href="index.php#coimbra">Coimbra</a>
+                    <a class="opcao" href="index.php#team">Team</a>
+                    <a class="opcao" href="index.php#contact">Contacts</a>
+                    
+                </div>
+                <div class="menu_mobile">
+                    
+                    
+                    
+                    <div class="menuOpcoes">
+                        <a class="Opcao" href="index.php#about">About</a>
+                        <a class="Opcao" href="index.php#partners">Partners</a>
+                        <a class="Opcao" href="index.php#coimbra">Coimbra</a>
+                        <a class="Opcao" href="index.php#team">Team</a>
+                        <a class="Opcao" href="index.php#contact">Contacts</a>
+                    </div>
+                    
+                    <div class="imgMenu">
+                        <a id="link" href="index.php"><i class="material-icons">keyboard_arrow_left</i></a>
+                        <a id="hamburger-icon" href="#" title="Menu">
+                            <span class="line line-1"></span>
+                            <span class="line line-2"></span>
+                            <span class="line line-3"></span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </nav>
+            
+        </header>
+        <section id="participate_ind">
+            <div class="container-fluid">
+                <h1>The Applications aren't open yet!</h1>
+                <h2>Stay Tunned</h2>
+            </div>
+        </section>
+         <footer>
+            <div class="redes_sociais">
+                <a href="#"><img class="img-responsive" src="imagens/fb.png"></a>
+                <a href="#"><img class="img-responsive" src="imagens/insta.png"></a>
+                <a href="#"><img class="img-responsive" src="imagens/in.png"></a>
+            </div>
+            <p>Copyright <i class="far fa-copyright"></i> 2019. All rights reserved to BEST Coimbra</p>
+        </footer>
+    </body>
+</html>
