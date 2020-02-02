@@ -184,7 +184,7 @@ header {
 #front{
     margin-top: 10%;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 #Layer_1{
     width: 40%;
@@ -553,7 +553,7 @@ footer a:hover{
     -webkit-transform: translateY(10px) translateX(10px);
     -moz-transform: translateY(10px) translateX(10px);
     }
-    #about, #coimbra, #partners, #team, #contact{
+    #about, #coimbra, #partners, #team, #contact, #schedule, #survival{
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -593,7 +593,7 @@ footer a:hover{
         
         margin-top: 4%;
     }
-    #about, #coimbra, #partners, #team, #contact{
+    #about, #coimbra, #partners, #team, #contact, #schedule, #survival{
          margin: 0 15%;
          margin-top: 15%;
     }
@@ -632,7 +632,7 @@ footer a:hover{
     .botao{
         width: 40%;
     }
-    #about, #coimbra, #partners, #team, #contact{
+    #about, #coimbra, #partners, #team, #contact, #schedule, #survival{
          margin-top: 20%;
     }
     footer{
@@ -648,7 +648,7 @@ footer a:hover{
     
 }
 @media all and (max-width: 480px){
-     #about, #coimbra, #partners, #team, #contact{
+     #about, #coimbra, #partners, #team, #contact, #schedule, #survival{
          margin-right: 10%;
          margin-left: 10%;
          margin-bottom: 30%;
@@ -780,6 +780,34 @@ footer a:hover{
 .slick-slide, .slider
 {
     height: 100px;
+}
+
+
+#schedule{
+    margin: 0 15%;
+    margin-top: 7%;
+}
+#schedule h1, #schedule h2{
+    color: #1DA974;
+    text-align: right;
+
+}
+
+#schedule img{
+    width: 100%;
+    margin-top: 4%
+}
+#survival{
+    margin: 0 15%;
+    margin-top: 10%;
+
+}
+#survival h1, #survival h2{
+    color: #196CB4;
+    
+}
+object{
+    margin-top: 4%;
 }
 
 

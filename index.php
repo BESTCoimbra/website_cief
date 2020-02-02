@@ -7,7 +7,7 @@
         
         
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-        <link rel="stylesheet" href="css/style.css?1422585377"/>
+        <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/slider.css"/>
 
         <script src="js/jquery-3.1.1.min.js"></script>
@@ -113,7 +113,7 @@
                 <h1>Partners</h1>
                 <h2>Help us make this happen</h2>
                 <div class="customer-logos slider">
-                    <div class="slide"> <a href="https://www.fct.unl.pt/"> <img src="imagens/fct.png"> </a> </div>
+                    <div class="slide"> <a href="https://www.uc.pt/"> <img src="imagens/Reitoria.jpg"> </a> </div>
                     
                 </div>
                 <div class="botao">
@@ -137,9 +137,15 @@
                     </div>
                 </div>
             </section>
-            <section class="schedulle">
+            <section class="section" id="schedule">
+                <h1>Shedule</h1>
+                <h2>What will we do</h2>
+                <img src="imagens/horario.jpg">
                 </section>
-            <section class="survival">
+            <section class="section" id="survival">
+                <h1>Survival Guide</h1>
+                <h2>The wonders of secret places</h2>
+                <object data="pdf/survival_guide.pdf" type="application/pdf" width="100%" height="800px"></object>
                 </section>
             <section class="section" id="team">
                 <h1>Team</h1>
