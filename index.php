@@ -24,7 +24,7 @@
     </head>
     <body>
         <?php 
-        $to = "coimbracief@gmail.com";
+        $to = "ciefbestcoimbra@best.eu.org";
         $subject ="";
         $name ="";
         $email="";
@@ -138,14 +138,19 @@
                 </div>
             </section>
             <section class="section" id="schedule">
-                <h1>Shedule</h1>
+                <h1>Schedule</h1>
                 <h2>What will we do</h2>
                 <img src="imagens/horario.jpg">
                 </section>
             <section class="section" id="survival">
                 <h1>Survival Guide</h1>
                 <h2>The wonders of secret places</h2>
-                <object data="pdf/survival_guide.pdf" type="application/pdf" width="100%" height="800px"></object>
+                <div id="desktop_survival">
+                    <object data="pdf/survival_guide.pdf" type="application/pdf" width="100%" height="800px"></object>
+                </div>
+                <div id="mobile_survival">
+                    <p>Download Survival Guide <a href="pdf/survival_guide.pdf">Here!</a></p>
+                </div>
                 </section>
             <section class="section" id="team">
                 <h1>Team</h1>
@@ -193,11 +198,16 @@
                 
             <footer>
                 <div class="redes_sociais">
-                    <a href="#"><img class="img-responsive" src="imagens/fb.png"></a>
-                    <a href="#"><img class="img-responsive" src="imagens/insta.png"></a>
-                    <a href="#"><img class="img-responsive" src="imagens/in.png"></a>
+                    <a href="#https://www.facebook.com/CIEF2020/"><img class="img-responsive" src="imagens/fb.png"></a>
+                    <a href="#https://www.instagram.com/best_cief/"><img class="img-responsive" src="imagens/insta.png"></a>
+                    <a href="#https://www.linkedin.com/company/11747385/"><img class="img-responsive" src="imagens/in.png"></a>
                 </div>
+                <div class="best">
+                    <a href="http://best.uc.pt/"><img class="img-responsive" src="imagens/BEST_logo.png"></a>
+                </div>
+                <div class="copyright">
                 <p>Copyright <i class="far fa-copyright"></i> 2019. All rights reserved to <a href="http://best.uc.pt/">BEST Coimbra</a></p>
+                    </div>
             </footer>
             </div>
         </body>
