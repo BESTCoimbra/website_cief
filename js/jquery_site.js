@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    
+
     //scroll menu to div
     $('.opcao').bind('click', function(e) {
         e.preventDefault(); // prevent hard jump, the default behavior
@@ -61,11 +61,51 @@ $(document).ready(function() {
     //animação header            
     var front = $('#front');
     var imagem = $('#Layer_1');
-    front.mousemove(function(e){
-        var valueX = (e.pageX * 1/8);
-        var valueY = (e.pageY * 1/8);
-                    
-                    
+
+    if ($(window).width() <= 960) {
+        startAnimFrameAnimation();
+    }
+    if ($(window).width() > 960) {
+        front.mousemove(function(e){
+                var valueX = (e.pageX * 1/8);
+                var valueY = (e.pageY * 1/8);
+                        
+                animateHeader(valueX,valueY,imagem);
+        });
+    }
+
+
+    function startAnimFrameAnimation() {
+        const refreshRate = 1000 / 10;
+        const maxXPosition = 70;
+        const maxYPosition = 60;
+
+        let speedX = 1;
+        let speedY = 1;
+
+        let positionX = 0;
+        let positionY = 0;
+
+      
+        function step() {
+          positionX = positionX + speedX;
+          positionY = positionY + speedY;
+
+          if (positionX > maxXPosition || positionX < -maxXPosition) {
+            speedX = speedX * (-1);
+          }
+          if (positionY > maxYPosition || positionY < -maxYPosition) {
+            speedY = speedY * (-1);
+          }
+          animateHeader(positionX,positionY,imagem);
+          window.requestAnimationFrame(step);
+        }
+      
+        window.requestAnimationFrame(step);
+      }
+
+    
+    function animateHeader(valueX, valueY, imagem){
         imagem.css({
             'transform':'translateY('+valueY + 'px) translateX(' +valueX +'px)', '-webkit-transform':'translateY('+valueY + 'px) translateX(' +valueX +'px)','-moz-transform':'translateY('+valueY + 'px) translateX(' +valueX +'px)'
         });
@@ -84,8 +124,6 @@ $(document).ready(function() {
                 'fill':'#E42F26'
             })
         }
-                    
-    });
-    
+    }
 	
 });
