@@ -1,201 +1,286 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>CIEF</title>
-        <link rel="shortcut icon" type="image/x-icon" href="imagens/Cief_final2.png" />
-        
-        
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/slider.css"/>
-
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<head>
+    <meta charset="utf-8"/>
+    <title>CIEF</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/Cief_final2.png" />
 
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/slider.css"/>
+    <link rel="stylesheet" href="css/fotos.css"/>
 
-    </head>
-    <body>
-        <script>
-            $(document).ready(function() {
-                var hamburger = $('#hamburger-icon');
-                var menu_mobile = $(".menuOpcoes");
-                hamburger.click(function() {
-                    hamburger.toggleClass('active');
-                    menu_mobile.toggleClass('active');
-                    return false;
-                });
-                
-            })
-        </script>
-        <header>
-            <nav>
-                <div class="menu_desktop">
-                    <a id="opcaoTop" href="index.php"><i class="material-icons">keyboard_arrow_left</i></a>
-                    <a class="opcao" href="index.php#about">About</a>
-                    <a class="opcao" href="index.php#partners">Partners</a>
-                    <a class="opcao" href="index.php#coimbra">Coimbra</a>
-                    <a class="opcao" href="index.php#team">Team</a>
-                    <a class="opcao" href="index.php#contact">Contacts</a>
-                    
-                </div>
-                <div class="menu_mobile">
-                    
-                    
-                    
-                    <div class="menuOpcoes">
-                        <a class="Opcao" href="index.php#about">About</a>
-                        <a class="Opcao" href="index.php#partners">Partners</a>
-                        <a class="Opcao" href="index.php#coimbra">Coimbra</a>
-                        <a class="Opcao" href="index.php#team">Team</a>
-                        <a class="Opcao" href="index.php#contact">Contacts</a>
-                    </div>
-                    
-                    <div class="imgMenu">
-                        <a id="link" href="index.php"><i class="material-icons">keyboard_arrow_left</i></a>
-                        <a id="hamburger-icon" href="#" title="Menu">
-                            <span class="line line-1"></span>
-                            <span class="line line-2"></span>
-                            <span class="line line-3"></span>
-                        </a>
-                    </div>
-                    
-                </div>
-            </nav>
-            
-        </header>
-        <section id="team_ind">
-            <div class="container-fluid">
 
-                <h1>Team</h1>
-                <h2>Principal Team</h2>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <img class="img-responsive" src="imagens/marta.jpg">
-                        <h3>Main Organizer</h3>
-                        <p>Marta Marques</p>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <img class="img-responsive" src="imagens/teddy.jpg">
-                        <h3>President of BEST Coimbra</h3>
-                        <p>José Teodoro</p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <img class="img-responsive" src="imagens/maria_c.jpg">
-                        <h3>Secretary</h3>
-                        <p>Maria Carvalhão</p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <img class="img-responsive " src="imagens/maria_a.jpg">
-                        <h3>External Ambassador</h3>
-                        <p class="foto_final">Maria Alves</p>
-                    </div>
-                </div>
-                <h2>Connection Team</h2>
-                <div class="row">
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/ana.jpg">
-                        <h3>Connection Coordinator</h3>
-                        <p>Ana Antunes</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/mariana_c.jpg">
-                        <h3>Team Member</h3>
-                        <p>Mariana Campos</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/david.jpg">
-                        <h3>Team Member</h3>
-                        <p>David Pereira</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/joao.jpg">
-                        <h3>Team Member</h3>
-                        <p>João Batista</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/lumiar.jpg">
-                        <h3>Team Member</h3>
-                        <p class="foto_final">Lumiar Chaves</p>
-                    </div>
-                </div>
-                <h2>Support Team</h2>
-                <div class="row">
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/paiva.jpg">
-                        <h3>Support Coordinator</h3>
-                        <p>Ricardo Paiva</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/ines.jpg">
-                        <h3>Team Member</h3>
-                        <p>Inês Moura</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/vitor.jpg">
-                        <h3>Team Member</h3>
-                        <p>Vítor Ferreira</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/tiago.jpg">
-                        <h3>Team Member</h3>
-                        <p>Tiago Cascais</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/joel.jpg">
-                        <h3>Team Member</h3>
-                        <p class="foto_final">Joel Filho</p>
-                    </div>
-                </div>
-                <h2>Marketing Team</h2>
-                <div class="row">
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/mariana_s.jpg">
-                        <h3>Marketing Coordinator</h3>
-                        <p>Mariana Santos</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/andreia.jpg">
-                        <h3>Team Member</h3>
-                        <p>Andreia Rodrigues</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/raquel.jpg">
-                        <h3>Team Member</h3>
-                        <p>Raquel Ramalheiro</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/natalia.jpg">
-                        <h3>Team Member</h3>
-                        <p>Natália Soares</p>
-                    </div>
-                    <div class="col-sm-15 col-md-15 col-lg-15">
-                        <img class="img-responsive" src="imagens/marisa.jpg">
-                        <h3>Team Member</h3>
-                        <p>Marisa Alves</p>
-                    </div>
-                </div>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+
+
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+            var hamburger = $('#hamburger-icon');
+            var menu_mobile = $(".menuOpcoes");
+            hamburger.click(function() {
+                hamburger.toggleClass('active');
+                menu_mobile.toggleClass('active');
+                return false;
+            });
+
+        })
+    </script>
+    <header>
+        <nav>
+            <div class="menu_desktop">
+                <a id="opcaoTop" href="index.php"><i class="material-icons">keyboard_arrow_left</i></a>
+                <a class="opcao" href="index.php#about">About</a>
+               <a class="opcao1" href="participant.html">How do I apply</a>
+                <a class="opcao" href="index.php#partners">Partners</a>
+                <a class="opcao" href="index.php#coimbra">Coimbra</a>
+                <a class="opcao" href="index.php#team">Team</a>
+                <a class="opcao" href="index.php#contact">Contacts</a>
+
             </div>
-        </section>
-        <footer>
-            <div class="redes_sociais">
-                    <a href="#https://www.facebook.com/CIEF2020/"><img class="img-responsive" src="imagens/fb.png"></a>
-                    <a href="#https://www.instagram.com/best_cief/"><img class="img-responsive" src="imagens/insta.png"></a>
-                    <a href="#https://www.linkedin.com/company/11747385/"><img class="img-responsive" src="imagens/in.png"></a>
+            <div class="menu_mobile">
+
+
+
+                <div class="menuOpcoes">
+                    <a class="Opcao" href="index.php#about">About</a>
+                    <a class="opcao1" href="participant.html">How do I apply</a>
+                    <a class="Opcao" href="index.php#partners">Partners</a>
+                    <a class="Opcao" href="index.php#coimbra">Coimbra</a>
+                    <a class="Opcao" href="index.php#team">Team</a>
+                    <a class="Opcao" href="index.php#contact">Contacts</a>
                 </div>
-                <div class="best">
-                    <a href="http://best.uc.pt/"><img class="img-responsive" src="imagens/BEST_logo.png"></a>
+
+                <div class="imgMenu">
+                    <a id="link" href="index.php"><i class="material-icons">keyboard_arrow_left</i></a>
+                    <a id="hamburger-icon" href="#" title="Menu">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </a>
                 </div>
-                <div class="copyright">
-                <p>Copyright <i class="far fa-copyright"></i> 2019. All rights reserved to <a href="http://best.uc.pt/">BEST Coimbra</a></p>
-                    </div>
-        </footer>
-    </body>
+
+            </div>
+        </nav>
+
+    </header>
+    <section id="team_ind">
+
+        <h1>Team</h1>
+        <br>
+
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides">
+            <h2>CR Team</h2>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+           
+              <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\ct\joel.jpg"></div>
+                <div class="cargo1"><b>Joel Filho</b> (CR Responsible)</div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\cr\ines.jpg"></div>
+                <div class="cargo1"><b>Inês Moura</b> (CR Team)</div>
+              </div>
+               <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\cr\marcela.jpg"></div>
+                <div class="cargo1"><b>Marcela Arostegui</b> (CR Team)</div>
+              </div>
+               <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\cr\ricardo.jpg"></div>
+                <div class="cargo1"><b>Ricardo Rodrigues</b> (CR Team)</div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+     <div class="mySlides">
+            <h2 style="color: #951b81">Topic Team</h2>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\ct\ana.jpg"></div>
+                <div class="cargo2"><b>Ana Antunes</b> (Topic Responsible)</div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\topic\david.jpg"></div>
+                <div class="cargo2"><b>David Lourenço</b> (Topic Team)</div>
+              </div>
+               <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\topic\teresa.jpg"></div>
+                <div class="cargo2"><b>Teresa Abreu</b> (Topic Team)</div>
+              </div>
+          
+            </div>
+      </div>
+    </div>
+
+     <div class="mySlides">
+            <h2>IT Team</h2>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\ct\angela.jpg"></div>
+                <div class="cargo1"><b>Ângela Calhau</b> (IT Responsible)</div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\ct\patricia.jpg"></div>
+                <div class="cargo1"><b>Patrícia Cruz</b> (IT Team)</div>
+              </div>
+               <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\it\mafalda.jpg"></div>
+                <div class="cargo1"><b>Mafalda Fernando</b> (IT Team)</div>
+              </div>
+          
+            </div>
+      </div>
+    </div>
+
+      <div class="mySlides">
+            <h2 style="color: #951b81">Marketing Team</h2>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\ct\sofia.jpg"></div>
+                <div class="cargo2"><b>Sofia Almeida</b> (Design Responsible)</div>
+              </div>
+
+                <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\ct\teddy.jpg"></div>
+                <div class="cargo2">José Teodoro</b> (PR Responsible)</div>
+              </div>
+
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\mkt\eva.jpg"></div>
+                <div class="cargo2"><b>Eva</b> (Marketing Team)</div>
+              </div>
+               <div class="col-md-4">
+                <div class="foto2"><img id="foto_team" src="imagens\Fotos\mkt\rocha.jpg"></div>
+                <div class="cargo2"><b>Beatriz Rocha</b> (Marketing Team)</div>
+              </div>
+          
+            </div>
+      </div>
+    </div>
+
+        <div class="mySlides">
+            <h2>Academics Team</h2>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\ct\lucas.jpg"></div>
+                <div class="cargo1"><b>Lucas Rebelo</b> (Academics Responsible)</div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="foto1"><img id="foto_team" src="imagens\Fotos\academics\nena.jpg"></div>
+                <div class="cargo1"><b>Madalena Cardoso</b> (Academics Team)</div>
+              </div>
+        
+          
+            </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+   
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+
+
+      </div>
+
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+          showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+              }
+
+          </script>
+      </div>
+
+  </section>
+  <footer>
+    <div class="redes_sociais">
+        <a href="#https://www.facebook.com/CIEF2020/"><img class="img-responsive" src="imagens/fb.png"></a>
+        <a href="#https://www.instagram.com/best_cief/"><img class="img-responsive" src="imagens/insta.png"></a>
+        <a href="#https://www.linkedin.com/company/11747385/"><img class="img-responsive" src="imagens/in.png"></a>
+    </div>
+    <div class="best">
+        <a href="http://best.uc.pt/"><img class="img-responsive" src="imagens/BEST_logo.png"></a>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="far fa-copyright"></i> 2019. All rights reserved to <a href="http://best.uc.pt/">BEST Coimbra</a></p>
+    </div>
+</footer>
+</body>
 </html>
