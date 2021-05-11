@@ -553,12 +553,13 @@ footer p {
 }
 .redes_sociais img {
   width: 5%;
+  margin: 1%;
 }
 .best {
   text-align: center;
 }
 .best img {
-  width: 10%;
+  width:20%;
 }
 footer a {
   color: #e5281d;
@@ -700,6 +701,9 @@ footer a:hover {
   form {
     width: 100%;
   }
+  .redes_sociais img {
+    width: 10%;
+  }
   .botao {
     width: 40%;
   }
@@ -717,6 +721,9 @@ footer a:hover {
   }
   footer p {
     font-size: 12px;
+  }
+  .best img {
+    width:40%;
   }
   #front {
     height: auto;
