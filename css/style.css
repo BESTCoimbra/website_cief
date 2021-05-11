@@ -74,6 +74,21 @@ header {
   text-decoration: none;
 }
 
+.menu_desktop .opcao1 {
+  text-align: center;
+  color: black;
+
+  margin-top: 10px;
+  width: 100%;
+  padding: 0;
+}
+.opcao1:hover {
+  color: #1da974;
+  text-decoration: none;
+}
+
+
+
 /*menu mobile */
 .menu_mobile {
   width: 100%;
@@ -156,6 +171,22 @@ header {
   color: #1da974;
   text-decoration: none;
 }
+
+.menuOpcoes .Opcao1 {
+  padding: 0;
+  margin: 0;
+  display: block;
+  font-size: 18px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  padding: 3% 0;
+}
+.Opcao1:hover {
+  color: #1da974;
+  text-decoration: none;
+}
+
 #logo_mobile {
   width: 50px;
   float: left;
@@ -233,7 +264,7 @@ header {
   height: 62px;
   position: relative;
   display: block;
-  background: #1da974;
+  background: #00a773;
   top: -62px;
   left: 0px;
   z-index: 1;
@@ -257,7 +288,7 @@ header {
 #partners h1,
 #partners h2 {
   text-align: right;
-  color: #196cb4;
+  color: #951b81;
 }
 .slider {
   margin-top: 9%;
@@ -284,7 +315,7 @@ header {
   height: 62px;
   position: relative;
   display: block;
-  background: #196cb4;
+  background: #951b81;
   top: -62px;
   left: 0px;
   z-index: 1;
@@ -307,7 +338,7 @@ header {
 }
 #coimbra h1,
 #coimbra h2 {
-  color: #e5281d;
+  color: #1da974;
 }
 
 #img_coimbra {
@@ -328,13 +359,15 @@ header {
 }
 #team h1,
 #team h2 {
-  color: #1da974;
+  color: #951b81;
   text-align: right;
 }
 .img_team {
-  width: 100%;
-  border: 3px black solid;
+  position: relative;
+  max-width: 90%;
+  
   margin-top: 8%;
+  margin-bottom: 8%;
   /*animation: pulse 2s infinite;*/
 }
 
@@ -345,8 +378,8 @@ header {
   /*animation: pulse 2s infinite;*/
 }
 
-@keyframes pulse {
-  0% {
+/*@keyframes pulse {
+ / 0% {
     transform: scale(0.9);
     box-shadow: 0 0 0 0 rgba(black, 0.7);
   }
@@ -359,14 +392,14 @@ header {
     box-shadow: 0 0 0 0 rgba(black, 0);
   }
 }
-
+*/
 #link_team {
   cursor: pointer;
 }
 #link_team:hover .img_team {
   -webkit-filter: opacity(60%); /* Safari 6.0 - 9.0 */
   filter: opacity(60%);
-  animation: pulse 2s infinite;
+ /* animation: pulse 2s infinite;*/
 
 }
 }
@@ -378,7 +411,7 @@ header {
 }
 #contact h1,
 #contact h2 {
-  color: #196cb4;
+  color: #1da974;
 }
 #text_contact {
   margin-top: 8%;
@@ -457,7 +490,7 @@ input,
   display: block;
   position: relative;
   margin-left: auto;
-  background: #196cb4;
+  background: #00a773;
   height: 40px;
   z-index: 2;
   border: 3px black solid;
@@ -525,7 +558,7 @@ footer p {
   text-align: center;
 }
 .best img {
-  width: 7%;
+  width: 10%;
 }
 footer a {
   color: #e5281d;
@@ -550,6 +583,11 @@ footer a:hover {
   .opcao {
     font-size: 18px;
   }
+
+   .opcao1 {
+    font-size: 18px;
+  }
+
   .cima,
   .cima2 {
     font-size: 18px;
@@ -807,13 +845,13 @@ footer a:hover {
 #participate_ind {
   margin: 0 10%;
   margin-top: 10%;
-  color: #e5281d;
+  color: #951b81;
 }
 #participate_ind p {
   color: black;
 }
 #participate_ind a {
-  color: #e5281d;
+  color: #951b81;
 }
 
 .slick-slide,
@@ -830,7 +868,7 @@ footer a:hover {
 }
 #schedule h1,
 #schedule h2 {
-  color: #1da974;
+  color: #951b81;
   text-align: right;
 }
 
@@ -844,7 +882,7 @@ footer a:hover {
 }
 #survival h1,
 #survival h2 {
-  color: #196cb4;
+  color: #1da974;
 }
 object {
   margin-top: 4%;
@@ -856,5 +894,43 @@ object {
   display: none;
 }
 #mobile_survival a {
-  color: #196cb4;
+  color: #1da974;
+}
+
+#row_team{
+  margin-bottom: 24px;
+  height: 30%;
+
+
+
+  
+}
+.foto{
+  display: block;
+  /*border: 3px solid #951b81;*/
+  padding: 3px;
+  margin-bottom: 1px;
+  height: 65%;
+}
+
+.foto img{
+  border: 3px solid #951b81;
+
+}
+
+
+#foto_team{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cargo{
+  display: block;
+  float: right;
+  border: 3px solid #951b81;
+  font-size: 15px;
+  margin-bottom: 3px;
+  padding: 3px;
+  font-size: 12px;
 }
