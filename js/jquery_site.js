@@ -109,21 +109,22 @@ $(document).ready(function() {
         imagem.css({
             'transform':'translateY('+valueY + 'px) translateX(' +valueX +'px)', '-webkit-transform':'translateY('+valueY + 'px) translateX(' +valueX +'px)','-moz-transform':'translateY('+valueY + 'px) translateX(' +valueX +'px)'
         });
-        if(valueX <= 55){
-            $('.cls-1').css({
-                'fill':'#00a773'
-            })
-        }
-        else if(valueX<=170){
-            $('.cls-1').css({
-                'fill':'#2271B9'
-            })
-        }
-        else {
-            $('.cls-1').css({
-                'fill':'#E42F26'
-            })
-        }
+        //if(valueX <= 55){
+           // $('.cls-1').css({
+               // 'fill':'#951b81'
+                
+           // })
+       // }
+       // else if(valueX<=170){
+           // $('.cls-1').css({
+              //  'fill':'#00a773'
+           // })
+      //  }
+        //else {
+            //$('.cls-1').css({
+                //'fill':'#E42F26'
+           // })
+       // }
     }
 	
 });
