@@ -910,11 +910,12 @@ object {
   /*border: 3px solid #951b81;*/
   padding: 3px;
   margin-bottom: 1px;
-  height: 65%;
+  height: 75%;
 }
 
 .foto img{
   border: 3px solid #951b81;
+  float: right;
 
 }
 
@@ -927,10 +928,13 @@ object {
 
 .cargo{
   display: block;
+  width: 174px;
+  height:45px;
   float: right;
+  text-align: center;
   border: 3px solid #951b81;
   font-size: 15px;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   padding: 3px;
   font-size: 12px;
 }

@@ -111,7 +111,7 @@
     /*border: 3px solid #1da974;*/
     padding: 3px;
     margin: 2px;
-    height: 80%;
+    height: 75%;
 
 }
 
@@ -121,6 +121,7 @@
 }
 
 .cargo1{
+  text-align: right;
   float: right;
   border: 3px solid #1da974;
   font-size: 15px;
@@ -137,7 +138,7 @@
    /* border: 3px solid #951b81;*/
     padding: 3px;
     margin: 2px;
-    height: 80%;
+    height: 75%;
 
 }
 
@@ -149,6 +150,7 @@
 
 
 .cargo2{
+  text-align: right;
   float: right;
   border: 3px solid #951b81;
   font-size: 15px;
