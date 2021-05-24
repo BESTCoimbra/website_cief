@@ -30,7 +30,7 @@
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
-    $subject = "Form submission";
+    $subject = $_POST['subject'];
     $subject2 = "Copy of your form submission";
     $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
     $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
@@ -42,40 +42,11 @@
     if($success){
                 $message_success = "Message Successfuly Sent";
     }
-
-
-    }
-   /* $to = "rubenpinto654@gmail.com";
-    $subject ="";
-    $name ="";
-    $email="";
-    $message ="";
-    $message_error ="";
-    $message_success="";
-    $message_error2="";
-
-    if((isset($_POST['submit']))){
-        if(empty($_POST["name"]) || empty($_POST["email"]) || empty($_POST['subject']) || empty($_POST['message'])){
-            $message_error2 = "Missed a Required Field";
-            
-
-        }
-        else{
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $subject = $_POST['subject'];
-            $message = $_POST['message'];
-            $header = 'From: '. $name. '<' .$email. '> \r\n  X-Mailer: PHP/' . phpversion();
-            $success = mail ($to, $subject, $message, $header);
-            if($success){
-                $message_success = "Message Successfuly Sent";
-            }
-            else{
+    else{
                 $message_error = "Message Sending Failed, Try Again"; 
             }
-        }
+
     }
-*/
     ?>
     <header>
         <nav>
@@ -165,30 +136,24 @@
 
 
             <section class="section" id="survival">
-                <h1>How do I apply</h1>
+                <h1>How do I Apply</h1>
                 <h2>Don't miss this amazing event</h2>
                 <div class="text">
                     <p> If in your university there is a Local BEST Group, apply <a href="https://www.best.eu.org/event/apply/localEvent.jsp?event=m6c42f7">here</a></p>
                     <p> If in your university there is not a Local BEST Group, but you are a student studying in CPLP you can apply <a href="https://forms.gle/qsSGsJyqruBBmkMW9">here.</a></p>
-                    <h3>Check this important info below!</h3>
+                     <h3>Check this important info below!</h3>
                 </div>
-              
-               
+
                 <div class="botao">
                     <button class="cima2" onclick="location.href='pdf/survivalguide.pdf';">Survival Guide</button>
                     <span class="baixo"></span>
              
-             
-            </div>
-          
+                </div>
                 
                 <div class="botao">
                     <button class="cima2" onclick="location.href='pdf/policy.pdf';">Private Policy</button>
                     <span class="baixo"></span>
                 </div>
-    
-       
-        
             </section>
 
 
